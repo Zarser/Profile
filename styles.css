@@ -1,0 +1,118 @@
+html, body{
+    padding: 0 ;
+    margin: 0 auto;
+    overflow: hidden;
+}
+body{
+  background-image: url('/media/salen.jpg');  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  margin: 0 auto;
+}
+main{
+    display: grid;
+    place-items: center;
+}
+/* Menu start*/
+nav {
+    background: transparent;
+    height: 3rem;
+    display: grid;
+    align-items: center;
+}
+.nav{
+    width: 60vh;
+    height: 3rem;
+    max-width: var(--fixed-width);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+li{
+    display: inline;
+    float: right;  
+}
+li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 16px;
+    background-image: linear-gradient(
+    to right,
+    #ffffff,
+    #ffffff 50%,
+    #000 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+  }
+  li a:hover {
+    background-position: 0;
+    }
+    a:hover::before {
+        width: 100%;
+      }
+/* menu ends*/
+/* headings */
+h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 48px;
+    font-weight: 800;
+}
+/* headings ends */
+/* center card */
+.card{
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    width: 600px;
+    height: 350px;
+    text-align: center;
+    margin-top: 25vh;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.linje{
+    border-bottom: 1px solid #000000;
+    margin: 2px 0;
+    clear: right;
+  }
+.inside p{
+    font-size: 25px;
+    margin-top: -42px;
+}
+.kontakt img{
+    margin: 20px 0 0 0;
+    padding: 0 30px 0 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.kontakt img:hover{
+    background-color: white;
+}
+.mail {
+   height: 4%;
+   width: 4%;
+}
+.fb, .in, .git, .yt{
+    height: 4%;
+    width: 4%;
+}
+.sign img{
+    height:40%;
+    width: 40%;
+    position: relative;
+    float: right;
+    margin: 55px 10px 0 0 ;
+}
+/*center card ends*/
