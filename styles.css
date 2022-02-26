@@ -119,3 +119,56 @@ h3{
     margin: 55px 10px 0 0 ;
 }
 /*center card ends*/
+
+/* responsiv */
+
+@media screen and (max-width: 600px) {
+    body{
+        overflow:hidden;
+        height: 100%;
+    }
+    h4{
+      font-size: 0;
+      
+    }
+    h3{
+        font-size: 25px;
+    }
+    .inside p{
+        font-size: 18px;
+        padding: 13px 0 0 0;
+    }
+    .nav{
+        width:60vh;
+    }
+    ul{
+        text-align: center;
+        padding: 0 20px 0 0;
+    }
+    li{
+        display: block;
+        padding: 0 20px 0 0;
+    }
+    .card{
+        width: 300px;
+        height: 400px;
+        margin-top: 10vh;
+    }
+    .kontakt img{
+        border: none;
+        border-radius: 0;
+        padding:0 3px 0 3px;
+    }
+    .fb, .in, .git, .yt{
+        height: 15%;
+        width: 15%;
+    }
+    .mail {
+        height: 15%;
+        width: 15%;  
+    }
+    .sign img{
+        margin: 10px 10px 0 0;
+    }
+
+}
