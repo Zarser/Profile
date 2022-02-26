@@ -4,7 +4,7 @@ html, body{
     overflow: hidden;
 }
 body{
-  background-image: url('/media/salen.jpg');  
+  background-image: url('../media/salen.jpg');  
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
