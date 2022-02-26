@@ -39,7 +39,7 @@ li a{
     display: block;
     text-align: center;
     text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-right: 16px;
     background-image: linear-gradient(
     to right,
@@ -77,10 +77,13 @@ h3{
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     width: 600px;
-    height: 350px;
+    height: 550px;
     text-align: center;
     margin-top: 25vh;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    overflow: hidden;
+    scroll-behavior: smooth;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .linje{
     border-bottom: 1px solid #000000;

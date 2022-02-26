@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skills</title>
+</head>
+
+<body>
+    <style type="text/css">
+        body {
+            margin: 0 auto;
+        }
+        .main {
+            width: 300px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: auto;
+            padding: 40px 0 0 0;
+        }
+        label {
+            float:left;}
+        progress {
+            float: right;
+            border-radius: 1px; 
+            box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+        }
+        progress::-webkit-progress-bar {
+            background-color: rgba(0, 0, 0, 0.1);
+            border-radius: 1px;
+        }
+        progress::-webkit-progress-value {
+            background-color: white;
+            border-radius: 1px;
+            box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+        }
+      </style>
+    <div class="main">
+            <label for="file">HTML:</label>
+            <progress id="file" value="90" max="100"></progress>
+        <br>
+        <label for="file">CSS:</label>
+            <progress id="file" value="75" max="100"></progress>
+        <br>
+        <label for="file">JavaScript:</label>
+            <progress id="file" value="15" max="100"></progress>
+        <br>
+        <label for="file">Adobe Photoshop:</label>
+            <progress id="file" value="93" max="100"></progress>
+        <br>
+        <label for="file">Davinci resolve:</label>
+            <progress id="file" value="50" max="100"></progress>
+    </div>
+</body>
+
+</html>

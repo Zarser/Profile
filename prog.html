@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style type="text/css">
+  body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.progress {
+  background: rgba(0, 0, 0, 0.1);
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 40px;
+  width: 500px;
+}
+
+.progress-value {
+  animation: load 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #fff;
+  height: 30px;
+  width: 0;
+}
+span{
+animation: load 3s normal forwards;
+font-size: 25px;
+font-weight: bold;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+position: fixed;
+padding: 0 0 0 50px;
+color: rgba(0, 0, 0, 0.1);
+animation: mymove 3s normal forwards;
+}
+@keyframes load {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
+@keyframes mymove {
+    0% { opacity: 0; }
+  100% { opacity: 100%; color:black }
+  
+}
+    </style>
+    <div class="progress">
+        <div class="progress-value"><span>100% PÅ RÄTT VÄG MOT MINA MÅL</span></div>
+      </div>
+</body>
+</html>
