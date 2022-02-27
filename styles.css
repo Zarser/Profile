@@ -127,7 +127,7 @@ h3{
 
 /* responsiv */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     body{
         overflow:hidden;
         height: 100%;
@@ -178,4 +178,10 @@ h3{
         margin: 10px 10px 0 0;
     }
 
+}
+@media screen and (min-width: 400px){
+    ul{
+        text-align: center;
+        padding: 0 150px 0 0;
+}
 }
