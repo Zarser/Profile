@@ -64,11 +64,13 @@ li a{
 h4{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
+    text-shadow: 1px 2px 4px rgba(0,0,0,.2);
 }
 h3{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 48px;
     font-weight: 800;
+    text-shadow: 1px 2px 4px rgba(0,0,0,.2);
 }
 /* headings ends */
 /* center card */
@@ -93,6 +95,7 @@ h3{
 .inside p{
     font-size: 25px;
     margin-top: -42px;
+    text-shadow: 1px 2px 4px rgba(0,0,0,.2);
 }
 .kontakt img{
     margin: 20px 0 0 0;
@@ -106,10 +109,12 @@ h3{
 .mail {
    height: 4%;
    width: 4%;
+   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 .fb, .in, .git, .yt{
     height: 4%;
     width: 4%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 .sign img{
     height:40%;
@@ -132,11 +137,11 @@ h3{
       
     }
     h3{
-        font-size: 25px;
+        font-size: 20px;
     }
     .inside p{
-        font-size: 18px;
-        padding: 13px 0 0 0;
+        font-size: 13px;
+        padding: 20px 0 0 0;
     }
     .nav{
         width:60vh;
@@ -162,10 +167,12 @@ h3{
     .fb, .in, .git, .yt{
         height: 15%;
         width: 15%;
+        box-shadow: 0 0 0 0 rgba(0,0,0,.2);
     }
     .mail {
         height: 15%;
         width: 15%;  
+        box-shadow: 0 0 0 0 rgba(0,0,0,.2);
     }
     .sign img{
         margin: 10px 10px 0 0;
