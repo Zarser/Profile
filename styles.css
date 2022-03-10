@@ -23,7 +23,7 @@ nav {
     align-items: center;
 }
 .nav{
-    width: 60vh;
+    width: 68vh;
     height: 3rem;
     max-width: var(--fixed-width);
     margin: 0 auto;
@@ -63,7 +63,7 @@ li a{
 /* headings */
 h4{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
+    font-size: 24px;
     text-shadow: 1px 2px 4px rgba(0,0,0,.2);
 }
 h3{
@@ -96,6 +96,10 @@ h3{
     font-size: 25px;
     margin-top: -42px;
     text-shadow: 1px 2px 4px rgba(0,0,0,.2);
+    animation: typing 2s steps(36), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
 }
 .kontakt img{
     margin: 20px 0 0 0;
@@ -124,7 +128,17 @@ h3{
     margin: 55px 10px 0 0 ;
 }
 /*center card ends*/
-
+/* typing animation */
+@keyframes typing {
+    from { width: 0% }
+    to { width: 100% }
+  }
+      
+  @keyframes blink {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(0, 0, 0); }
+  }
+  /* typing animation ends*/
 /* responsiv */
 
 @media screen and (max-width: 800px) {

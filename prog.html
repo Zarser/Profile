@@ -51,6 +51,14 @@ animation: mymove 3s normal forwards;
 .korttxt{
   display: none;
 }
+@media screen and (min-width: 600px) {
+    div.progress-value span.korttxt { display: none; }
+    div.progress-value span.txt { display: inline-block; }
+}
+@media screen and (max-width: 599px) {
+  div.progress-value span.txt { display: none; }
+  div.progress-value span.korttxt { display: inline-block; }
+}
 @keyframes load {
   0% { width: 0; }
   100% { width: 100%; }
@@ -59,10 +67,6 @@ animation: mymove 3s normal forwards;
     0% { opacity: 0; }
   100% { opacity: 100%; color:black }
   
-}
-@media (max-width: 600px) {
-    .korttxt { display: inline-block; }
-    .txt { display: none; }
 }
     </style>
     <div class="progress">
